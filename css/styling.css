@@ -4,7 +4,7 @@ body{
     line-height: 1.5;
     text-align: center;
     color: #3a3a3a;
-    margin: 0;
+    margin:50px 0;
     
     
 
@@ -29,7 +29,7 @@ p{
     color: brown;
     text-align: center;    
     display: block;
-    font-size: 1em
+    font-size: 1em;
      
 }
 
@@ -58,17 +58,17 @@ p{
      background-image: url(../my_images/1.jpg);
      background-blend-mode: overlay;
      background-size: cover;
-     width: 1100;
-     background-position:50% 50px;
+     width: 1100px;
+     background-position:70% ;
      padding: 10px;
      background-color: rgb(124, 21, 21);
-     margin: 0;
+     margin: 0 auto ;
      
 
  }
   
  .image-fig{
-  width: 850;
+  width: 850px;
  }
  #life{
      color: #fff;
@@ -76,11 +76,12 @@ p{
  }
  #housing{
     display: block;
-    font-size:  50ft;
+    font-size:  20px;
     text-transform: lowercase;
     
  }
 #unordered{
+    font-size: 14px;
     max-width: 500px;
     margin: 0 auto 50px auto;
     text-align: left;
@@ -92,7 +93,7 @@ p{
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.6;
-    color:cyan; 
+    color:#fff; 
     font-style: italic;
     font-size:  50ft;
     
