@@ -1,27 +1,24 @@
-body{
-    display: block;    
-    background-image: url(../4.jpg);    
-    font-family: 'Poppins', sans-serif;    
-    color: #fff;    
-    text-align: center;    
-    margin: auto;
-    width: 20 0;
-    height: auto;    
+ body{
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
-    background-size: 60;
-    min-width: 1000;
-    margin: 30px 8px;
-    padding: 15px;
-    border-radius: 5px;
-    background: rgb(138, 7, 7);  
+    text-align: center;
+    color: #3a3a3a;
+    margin: 0;
     
     
 
 }
+.container{
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(138, 7, 7);
+}
+ 
 
 .head{
-    color: #fff;
+    color: blue;
     text-align: center;
     font-size: 4rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -29,31 +26,33 @@ body{
     font-size: 55;
 }
 p{
-    color: #c7c2c2;
+    color: brown;
     text-align: center;    
     display: block;
     font-size: 1em
      
 }
 
- #house{
-     line-height: 20px;
+ .section{
+     line-height: 1.5;
  }
 
 
-    h1{ 
-        display: block;
-        font-size: 2em;
-        margin-block-start: 0.66em;
-        margin-block-end: 0.67em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
+ #scrol{
+  width: 70%;
+  font-size: 4rem;
+  color: blue;
+
+ }
+
+
+    
         
-    }
+    
     .capture{
         text-align: center;
         color: #fff;
+        
     }
  #images{
      background-image: url(../my_images/1.jpg);
@@ -80,7 +79,7 @@ p{
  }
  #housing{
     display: block;
-    font-size:  smaller;
+    font-size:  50ft;
     text-transform: lowercase;
     
  }
@@ -89,16 +88,20 @@ p{
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.6;
+    color: cyan;
 }
 .paragraph{
     max-width: 500px;
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.6;
-    color: #fff; 
+    color:cyan; 
     font-style: italic;
-    font-size:  smaller;
-}
+    font-size:  50ft;
+    
+
+    }
+
 #page{
     max-width: 500px;
     margin: 0 auto 50px auto;
@@ -113,6 +116,12 @@ p{
     .h3{
         font-size: 17px;
     }
+
+
+ #mark{
+     width: 50%;
+     color: blue;
+ }
 
     
 
